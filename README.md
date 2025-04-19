@@ -95,15 +95,14 @@ python app.py
 
 ### Teknik Diyagramlar
 
-- [UML Use Case Diyagramı](./Diagrams/USE_CASE.svg) - Kullanıcı etkileşimlerini gösterir
-- [Sınıf Diyagramı](./Diagrams/Sınıf_Diyagramı.svg) - Uygulamanın nesne yapısını gösterir
-- [Aktivite Diyagramı](./Diagrams/Activity.svg) - Uygulama içi aktivite akışını gösterir
-- [Nesne Diyagramı](./Diagrams/Object.svg) - Çalışma anında nesnelerin durumunu gösterir
-- [Sıralama Diyagramı](./Diagrams/Sequence%20.svg) - Sistem bileşenleri arasındaki etkileşimleri gösterir
-- [Durum Diyagramı](./Diagrams/State.svg) - Uygulama durumlarını ve geçişlerini gösterir
-- [Bileşen Diyagramı](./Diagrams/Component.svg) - Uygulama bileşenlerini ve bağımlılıklarını gösterir
-- [Deployment Diyagramı](./Diagrams/Deployment.svg) - Dağıtım mimarisini gösterir
-- [Gantt Şeması](./dokümanlar/Gantt_Semması.png) - Proje zaman çizelgesini gösterir
+- [UML Use Case Diyagramı](./Diagrams/USE_CASE.png) - Kullanıcı etkileşimlerini gösterir
+- [Sınıf Diyagramı](./Diagrams/Sınıf_Diyagramı.png) - Uygulamanın nesne yapısını gösterir
+- [Aktivite Diyagramı](./Diagrams/Activity.png) - Uygulama içi aktivite akışını gösterir
+- [Nesne Diyagramı](./Diagrams/Object.png) - Çalışma anında nesnelerin durumunu gösterir
+- [Sıralama Diyagramı](./Diagrams/Sequence%20.png) - Sistem bileşenleri arasındaki etkileşimleri gösterir
+- [Durum Diyagramı](./Diagrams/State.png) - Uygulama durumlarını ve geçişlerini gösterir
+- [Bileşen Diyagramı](./Diagrams/Component.png) - Uygulama bileşenlerini ve bağımlılıklarını gösterir
+- [Deployment Diyagramı](./Diagrams/Deployment.png) - Dağıtım mimarisini gösterirgn
 
 ### Proje Analiz Dokümanları
 
