@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    
+    <!-- Arka plan saydam -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,0h512v512h-512z" />
+    
+    <!-- Temel yüz dokusu - çok açık pembe tonunda -->
+    <path
+        android:fillColor="#FFEFE4"
+        android:pathData="M128,128a256,256 0 1,0 256,256a256,256 0 0,0 -256,-256z" />
+    
+    <!-- Sol yanağa hafif allık -->
+    <path
+        android:fillColor="#FFCAD4"
+        android:fillAlpha="0.3"
+        android:pathData="M90,240a50,30 0 1,0 100,0a50,30 0 0,0 -100,0z" />
+    
+    <!-- Sağ yanağa hafif allık -->
+    <path
+        android:fillColor="#FFCAD4"
+        android:fillAlpha="0.3"
+        android:pathData="M322,240a50,30 0 1,0 100,0a50,30 0 0,0 -100,0z" />
+    
+    <!-- Sol göz konturu için işaretçi -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:pathData="M160,190a20,10 0 1,0 40,0a20,10 0 0,0 -40,0z" />
+    
+    <!-- Sağ göz konturu için işaretçi -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:pathData="M312,190a20,10 0 1,0 40,0a20,10 0 0,0 -40,0z" />
+    
+    <!-- Dudaklar için işaretçi - pembe ton -->
+    <path
+        android:fillColor="#FF9E9E"
+        android:fillAlpha="0.4"
+        android:pathData="M206,300a50,20 0 1,0 100,0a50,20 0 0,0 -100,0z" />
+</vector> 

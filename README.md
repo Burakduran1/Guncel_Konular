@@ -1,188 +1,290 @@
-# Dünya Kaşifi
+# 🌍 Dünya Kaşifi AR Deneyimi
+*Artırılmış Gerçeklik Temelli Mobil Uygulama*
 
-Artırılmış Gerçeklik Temelli Mobil Uygulama
-
-<p align="center">
-  <img src="./dokümanlar/app_logo.png" alt="Dünya Kaşifi Logo" width="200"/>
-</p>
+![AR Kids Game](images/IMG-20250617-WA0041.jpg)
 
 ## 📱 Proje Açıklaması
 
-Dünya Kaşifi, çocukların uçak yolculukları sırasında eğlenceli ve eğitici bir deneyim yaşamalarını sağlamak amacıyla tasarlanmış artırılmış gerçeklik temelli bir mobil uygulamadır. Uygulama, çocukların kişiselleştirilmiş avatarları ile interaktif bir keşif macerasına çıkmasını sağlar.
+**Dünya Kaşifi**, çocukların eğlenceli ve interaktif bir AR (Artırılmış Gerçeklik) deneyimi yaşamalarını sağlamak amacıyla tasarlanmış modern bir Android uygulamasıdır. Uygulama, çocukların kişiselleştirilmiş avatarları ile sanal dünyada keşif yapmasını sağlar.
 
-## 🌟 Proje Özellikleri
+## 🌟 Özellikler
 
-### a) Oyuna Giriş ve Karakter Oluşturma
-- **Avatar Tasarımı:** Çocuk, saç stili, göz rengi, kıyafet ve aksesuar seçerek kendi avatarını oluşturabilir.
-- **Keşif Ekipmanları Seçimi:** Sanal dürbün, sihirli pusula, not defteri ve fotoğraf makinesi gibi araçları seçebilir.
-- **Favori Araç Belirleme:** Macerada kullanılacak sihirli halı, küçük uçak, roket veya sıcak hava balonu gibi araçlardan seçim yapılır.
-- **Kaşif Sertifikası:** Eğlenceli "Kaşif Yemini" sonrasında dijital "Dünya Kaşifi Sertifikası" verilir.
+### 🎨 Karakter Oluşturma Sistemi
+- **Avatar Tasarımı:** Saç stili, göz rengi, kıyafet ve aksesuar seçimi
+- **Keşif Ekipmanları:** Dürbün, pusula, not defteri, fotoğraf makinesi
+- **Ulaşım Araçları:** Sihirli halı, uçak, roket, sıcak hava balonu
 
-### b) Uçuş Rotası Tanıtımı
-- **Renkli Duraklar:** Geçilecek ülkeler ve şehirler, ilgi çekici ikonlarla işaretlenir.
-- **Hedefler ve Ödüller:** Her durak noktasında kazanılabilecek rozetler ve ödüller tanıtılır.
-- **Görev Listesi:** Uçuş sürecinde tamamlanabilecek görevler detaylandırılır.
+![Karakter Oluşturma](images/IMG-20250617-WA0039.jpg)
+![Avatar Seçenekleri](images/IMG-20250617-WA0040.jpg)
 
-### c) İnteraktif Görevler ve Mini Oyunlar
-- **Coğrafi Keşifler:** Ülkelerin 3D haritaları, ünlü yapılar (örneğin Eyfel Kulesi, Kolezyum, Big Ben) ve mini "Harita Dedektifi" oyunu ile gizli lokasyonların bulunması; ayrıca bilgi kartları.
-- **Kültürel Maceralar:** Geleneksel kıyafetlerin avatar üzerine giydirilmesi, yöresel yemeklerin toplanması ve tanınması, kültürel semboller eşleştirme görevleri.
-- **Dil Öğrenme Aktiviteleri:** Ülkelerin temel selamlaşma ifadeleri, sayı ve renk gibi kelimeler ile telaffuz oyunları.
-- **Pencere Görünümü Zenginleştirme:** AR teknolojisi ile bulutların üzerinde uçan hayvanlar, önemli yapılar ve bulut boyama/şekil oluşturma oyunları.
-- **Mini Oyunlar:** "Gökyüzü Matematik Yarışması" ile uçuş yüksekliği ve mesafe problemleri, "Hava Durumu Tahmincisi" oyunu.
+### 📱 AR Modu Özellikleri
+- **CameraX Entegrasyonu:** Profesyonel kamera preview sistemi
+- **Real-time Overlay:** Kamera üzerine gerçek zamanlı karakter özellikleri
+- **Interactive Controls:** Butonlarla anlık karakter değişiklikleri
+- **Tam Ekran Deneyim:** Immersive AR deneyimi
 
-### d) Eğitim ve İlerleme Sistemi
-- **Kaşif Pasaportu:** Her ülke için özel damgalar ve dil pulları; tamamlanan görevler ve öğrenilen bilgiler pasaporta işlenir.
-- **Ödül Mekanizması:** "Süper Kaşif" seviye sistemi ile ilerleme motive edilir. Dijital hatıralar ve avatar aksesuarları ödül olarak sunulur.
+![AR Deneyimi](images/IMG-20250617-WA0042.jpg)
+![AR Kontrolleri](images/IMG-20250617-WA0043.jpg)
 
-### e) Güvenlik ve Konfor Özellikleri
-- **Göz Sağlığı:** 20 dakikada bir göz dinlendirme hatırlatıcıları.
-- **Doğru Pozisyon:** Oturma pozisyonu animasyonları ve öneriler.
-- **Ebeveyn Kontrolü:** İçerik filtreleme, süre kontrolü ve ilerleme raporları.
+### 🎮 Mini Oyunlar
+- **Tıklama Oyunu:** Zamana karşı puan toplama
+- **Interaktif Görseller:** Rastgele değişen hedefler
+- **Skor Sistemi:** Performans tabanlı puanlama
+- **Ses Efektleri:** Immersive audio deneyimi
 
-### f) Uçuş Sonu Deneyimi
-- **Dijital Seyahat Günlüğü:** Uçuş boyunca kazanılan başarılar özetlenir.
-- **Yeni Hedefler:** Bir sonraki uçuş için yeni hedefler önerilir.
-- **Macera Sınavı:** Kısa bir sınav ile eğlenceli bir kapanış yapılır.
+![Oyun Modu](images/IMG-20250617-WA0044.jpg)
+![Skor Sistemi](images/IMG-20250617-WA0045.jpg)
 
-## 🔧 Kurulum ve Çalıştırma
+### 🏆 Sertifika Sistemi
+- **Başarı Sertifikaları:** Tamamlanan aktiviteler için ödüller
+- **Animasyonlu Geçişler:** Profesyonel kullanıcı deneyimi
+- **Kişiselleştirilmiş İçerik:** Kullanıcıya özel sertifikalar
 
-### APK İndirme ve Kurulum
-Uygulamamızın en son sürümünü indirmek için:
-1. [Dünya Kaşifi APK (v1.0.0)](./releases/dunya_kasifi_v1.0.0.apk) dosyasını indirin
-2. Android cihazınızda "Bilinmeyen Kaynaklardan Yükleme"yi etkinleştirin (Ayarlar > Güvenlik)
-3. İndirilen APK dosyasını açın ve kurulum talimatlarını izleyin
-4. Kurulum tamamlandıktan sonra, uygulamayı başlatın ve maceraya başlayın!
+![Sertifika Sistemi](images/IMG-20250617-WA0046.jpg)
 
-### Geliştirici Kurulumu
-Projeyi geliştirici olarak yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+## 🛠️ Teknik Özellikler
+
+### 📋 Sistem Gereksinimleri
+- **Android:** 8.0 (API level 26) ve üzeri
+- **RAM:** Minimum 3GB
+- **Depolama:** 100MB boş alan
+- **Kamera:** Ön kamera gerekli
+- **Sensörler:** Gyroscope (AR için önerilir)
+
+### ⚙️ Kullanılan Teknolojiler
+
+#### Core Technologies
+- **Language:** Kotlin
+- **Platform:** Android Native
+- **Build System:** Gradle with Kotlin DSL
+- **Architecture:** MVVM Pattern
+
+#### AR & Camera
+- **Camera Framework:** CameraX
+- **AR Implementation:** Custom Overlay System
+- **Face Tracking:** Ready for ARCore integration
+- **Image Processing:** Real-time camera preview
+
+#### UI/UX
+- **UI Framework:** Android Views & Layouts
+- **Material Design:** Modern Android UI patterns
+- **Animations:** Built-in Android transitions
+- **Responsive Design:** Multi-screen support
+
+#### Audio & Multimedia
+- **Audio:** MediaPlayer for sound effects
+- **Graphics:** Canvas API for custom drawings
+- **Image Loading:** BitmapFactory with optimization
+- **Memory Management:** Efficient bitmap recycling
+
+## 🚀 Kurulum ve Çalıştırma
+
+### 📥 APK İndirme (Release)
+```
+🔗 APK Download Link: [Buraya APK linki eklenecek]
+```
+
+### 👨‍💻 Geliştirici Kurulumu
+
+1. **Repository'yi klonlayın:**
+```bash
+git clone https://github.com/Burakduran1/Guncel_Konular.git
+cd Guncel_Konular
+```
+
+2. **Android Studio'da açın:**
+- Android Studio'yu başlatın
+- "Open an existing project" seçin
+- Klonlanan dizini seçin
+
+3. **Gradle Sync yapın:**
+```bash
+./gradlew build
+```
+
+4. **Uygulamayı çalıştırın:**
+- Android cihaz bağlayın veya emulator başlatın
+- Run butonuna basın
+
+### 🔧 Build Instructions
 
 ```bash
-# Repoyu klonlayın
-git clone https://github.com/dunya-kasifi/dunya-kasifi-ar.git
-cd dunya-kasifi-ar
+# Debug build
+./gradlew assembleDebug
 
-# Sanal ortam oluşturma
-python -m venv venv
+# Release build  
+./gradlew assembleRelease
 
-# Sanal ortamı aktifleştirme (Windows)
-venv\Scripts\activate
-
-# Gerekli kütüphaneleri yükleme
-pip install -r requirements.txt
-
-# Unity projesi için gerekli bağımlılıkları yükleme
-cd unity_project
-# Unity Hub'dan projeyi açabilirsiniz
-
-# Uygulamayı başlatma 
-python app.py
+# Install to device
+./gradlew installDebug
 ```
 
-### Minimum Sistem Gereksinimleri
-- **Android:** Android 8.0 ve üzeri
-- **İşlemci:** Snapdragon 660 veya eşdeğeri
-- **RAM:** 4 GB
-- **Depolama:** 500 MB boş alan
-- **Sensörler:** Gyroscope, Kamera
+## 📖 Kullanım Kılavuzu
 
-## 📚 Proje Dokümanları
+### 1️⃣ Hoş Geldin Ekranı
+Uygulamayı ilk açtığınızda hoş geldin ekranı sizi karşılar. "Başla" butonuna basarak karakter oluşturma ekranına geçin.
 
-### Kullanıcı Kılavuzları
-- [Kullanım Kılavuzu](./dokümanlar/kullanim_kilavuzu.pdf) - Uygulamanın kullanımı için detaylı açıklamalar
-- [Hızlı Başlangıç Rehberi](./dokümanlar/hizli_baslangic.pdf) - Yeni kullanıcılar için adım adım başlangıç
-- [Ebeveyn Kontrol Kılavuzu](./dokümanlar/ebeveyn_kilavuzu.pdf) - Ebeveynler için kontrol ve takip özellikleri
-- [Sık Sorulan Sorular](./dokümanlar/sss.pdf) - Yaygın sorunlar ve çözümleri
+### 2️⃣ Karakter Oluşturma
+- **Avatar sekmesi:** Saç, göz, kıyafet seçin
+- **Ekipman sekmesi:** Keşif araçlarınızı belirleyin  
+- **Araç sekmesi:** Ulaşım aracınızı seçin
+- **Sertifika sekmesi:** İlerleme durumunuzu görün
 
-### Teknik Diyagramlar
+### 3️⃣ AR Deneyimi
+"AR Modunu Başlat" butonuna basarak:
+- Kamera izni verin
+- Tam ekran AR deneyimini yaşayın
+- Alt butonlarla karakter özelliklerini değiştirin
+- Sol üstteki geri butonuyla çıkın
 
-- [UML Use Case Diyagramı](./Diagrams/USE_CASE.png) - Kullanıcı etkileşimlerini gösterir
-- [Sınıf Diyagramı](./Diagrams/Sınıf_Diyagramı.png) - Uygulamanın nesne yapısını gösterir
-- [Aktivite Diyagramı](./Diagrams/Activity.png) - Uygulama içi aktivite akışını gösterir
-- [Nesne Diyagramı](./Diagrams/Object.png) - Çalışma anında nesnelerin durumunu gösterir
-- [Sıralama Diyagramı](./Diagrams/Sequence%20.png) - Sistem bileşenleri arasındaki etkileşimleri gösterir
-- [Durum Diyagramı](./Diagrams/State.png) - Uygulama durumlarını ve geçişlerini gösterir
-- [Bileşen Diyagramı](./Diagrams/Component.png) - Uygulama bileşenlerini ve bağımlılıklarını gösterir
-- [Deployment Diyagramı](./Diagrams/Deployment.png) - Dağıtım mimarisini gösterirgn
+### 4️⃣ Mini Oyunlar
+"Oyunu Başlat" ile:
+- 30 saniye süreyle hedeflere tıklayın
+- Skorunuzu artırın
+- Başarı sertifikası kazanın
 
-### Proje Analiz Dokümanları
+## 🎯 Proje Mimarisi
 
-- [SMART Analizi](./dokümanlar/SMART.docx) - Proje hedeflerinin Specific, Measurable, Achievable, Relevant, Time-bound analizi
-- [SWOT Analizi](./dokümanlar/SWOT_Analizi.docx) - Güçlü yönler, zayıf yönler, fırsatlar ve tehditler analizi
-- [Gereksinim Analizi](./dokümanlar/Gereksinim_Analizi.docx) - Fonksiyonel ve fonksiyonel olmayan gereksinimler
-
-## 🧩 Kod Yapısı ve Artırılmış Gerçeklik Özellikleri
-
-Dünya Kaşifi, Unity 3D ve ARCore/ARKit teknolojileri kullanılarak geliştirilmiş bir artırılmış gerçeklik uygulamasıdır.
-
-### Kod Organizasyonu
+### 📁 Dizin Yapısı
 ```
-src/
-├── ar/                    # AR alt yapısı ve özellikleri
-│   ├── ARManager.cs       # Ana AR sistemi yöneticisi
-│   ├── CloudRecognition.cs # Bulut tabanlı AR izleme sistemi
-│   └── GeoAR.cs           # Coğrafi konum tabanlı AR özellikleri
-├── ui/                    # Kullanıcı arayüzü bileşenleri
-│   ├── AvatarCreator.cs   # Avatar oluşturma sistemi
-│   └── MapInterface.cs    # Harita arayüzü ve etkileşimleri
-├── game/                  # Oyun mekanikleri
-│   ├── MiniGames.cs       # Mini oyun sistemi
-│   ├── Quests.cs          # Görev sistemi
-│   └── Rewards.cs         # Ödül ve rozet sistemi
-└── utils/                 # Yardımcı sınıflar ve fonksiyonlar
-    ├── DataManager.cs     # Veri yönetimi
-    └── SafetyFeatures.cs  # Güvenlik özellikleri
+app/
+├── src/main/
+│   ├── java/com/example/arkidsgame/
+│   │   ├── MainActivity.kt              # Ana aktivite
+│   │   ├── WelcomeActivity.kt           # Hoş geldin ekranı
+│   │   ├── CharacterCreationActivity.kt # Karakter oluşturma
+│   │   ├── ARActivity.kt                # AR deneyimi
+│   │   ├── CertificateActivity.kt       # Sertifika sistemi
+│   │   ├── OverlayView.kt               # AR overlay çizimi
+│   │   └── fragments/                   # Fragment'lar
+│   │       ├── AvatarFragment.kt        # Avatar seçimi
+│   │       ├── EquipmentFragment.kt     # Ekipman seçimi
+│   │       ├── VehicleFragment.kt       # Araç seçimi
+│   │       └── CertificateFragment.kt   # Sertifika görüntüleme
+│   ├── res/
+│   │   ├── layout/                      # XML layout dosyaları
+│   │   ├── drawable/                    # Grafik kaynakları
+│   │   ├── values/                      # String, color, style
+│   │   └── raw/                         # Ses dosyaları
+│   └── assets/
+│       └── models/                      # 3D model dosyaları
 ```
 
-### Artırılmış Gerçeklik Özellikleri
+### 🏗️ Architecture Components
 
-Uygulamamız aşağıdaki AR teknolojilerini kullanır:
+#### Activities
+- **MainActivity:** Uygulama giriş noktası ve navigasyon hub'ı
+- **WelcomeActivity:** Kullanıcı onboarding ve giriş deneyimi  
+- **CharacterCreationActivity:** ViewPager2 tabanlı karakter özelleştirme
+- **ARActivity:** CameraX entegrasyonu ve AR overlay sistemi
+- **CertificateActivity:** Başarı sertifikaları ve animasyonlar
 
-1. **Görüntü İzleme (Image Tracking):** Haritalar ve kartlar üzerinde 3D modeller gösterme
-2. **Düzlem Algılama (Plane Detection):** Uçak penceresi dışındaki dünya üzerinde sanal nesneler yerleştirme
-3. **Yüz İzleme (Face Tracking):** Avatar kişiselleştirme ve yüz filtrelerini uygulama
-4. **Coğrafi Konum AR (Geo AR):** Uçuş rotasında gerçek lokasyonlara bağlı içerikler gösterme
-5. **Bulut Şekillendirme:** AR ile gökyüzündeki bulutları interaktif olarak şekillendirme ve boyama
+#### Custom Views
+- **OverlayView:** Canvas tabanlı AR çizim sistemi
+- Real-time bitmap rendering
+- Memory-efficient graphics processing
+- Multi-layer character feature composition
 
-## 📹 Demo ve Tanıtım Videoları
+#### Data Management
+- SharedPreferences for user settings
+- Intent-based activity communication  
+- Resource management for graphics and audio
+- Lifecycle-aware component handling
 
-- [Dünya Kaşifi Tanıtım Videosu](https://www.youtube.com/watch?v=example1) - Uygulamanın genel tanıtımı
-- [Kurulum ve Kullanım Rehberi](https://www.youtube.com/watch?v=example2) - Adım adım kurulum ve kullanım
-- [AR Özellikleri Demo](https://www.youtube.com/watch?v=example3) - Artırılmış gerçeklik özelliklerinin demosu
-- [Geliştirici Günlüğü #1](https://www.youtube.com/watch?v=example4) - Geliştirme sürecinin arkasındaki hikaye
+## 🔄 Development Workflow
 
+### 🧪 Testing
+```bash
+# Unit tests
+./gradlew test
 
-## 📋 Proje Takibi ve Yol Haritası
+# UI tests  
+./gradlew connectedAndroidTest
 
-Projeye ait tüm görevler, gelişim süreci ve sorumluluk paylaşımı Trello üzerinden detaylı olarak planlanmıştır. Aşağıdaki bağlantı üzerinden projemizin aşamalarını adım adım takip edebilirsiniz:
+# Lint checks
+./gradlew lint
+```
 
-🔗 [Trello Proje Panosu – Kalite Proje](https://trello.com/b/8Xt6CWoD/d%C3%BCnya-ka%C5%9Fifi)
+### 📊 Performance Monitoring
+- Memory usage optimization
+- Camera resource management
+- Bitmap recycling strategies
+- Battery usage considerations
 
-### 🗂️ Trello Panosundaki Bölümler
+### 🐛 Debugging
+- Comprehensive logging system
+- Error handling for camera permissions
+- Graceful degradation for unsupported devices
+- User-friendly error messages
 
-| Başlık | Açıklama |
-|--------|----------|
-| 📌 **Yapılacaklar (To Do)** | Henüz başlanmamış görevler ve planlanan işler |
-| 🚧 **Devam Edenler (In Progress)** | Şu anda üzerinde çalışılan görevler |
-| ✅ **Tamamlananlar (Done)** | Tamamlanmış tüm görev ve aşamalar |
-| 🧠 **Araştırma / Analiz** | Projeye dair ön araştırmalar, referanslar ve teknik analizler |
-| 🎨 **Tasarım** | Uygulamanın arayüz tasarımları ve kullanıcı deneyimi planları |
-| 💻 **Geliştirme** | Unity ve ARCore/ARKit ile yapılan kodlama süreçleri |
-| 🧪 **Test ve Geri Bildirim** | Test süreci, kullanıcı geri bildirimleri ve hata düzeltmeleri |
-| 🗣️ **Sunum Hazırlığı** | Proje tanıtımı, sunum slaytları ve video içerikler |
-| 📦 **Teslim** | Final dökümanları, video bağlantıları ve proje teslim dosyaları |
+## 📱 Demo & Videolar
 
-Trello panosu, proje yönetim sürecimizi daha şeffaf ve organize bir şekilde yürütmemize yardımcı olmaktadır. Her takım üyesi görev dağılımını, son teslim tarihlerini ve ilerleme durumunu bu pano üzerinden kolayca takip edebilir.
+### 🎬 Tanıtım Videosu
+```
+🔗 YouTube Demo Video: [Buraya video linki eklenecek]
+```
 
+### 📸 Uygulama Ekran Görüntüleri
+Yukarıdaki görsellerde uygulamanın tüm özelliklerini görebilirsiniz:
+- Karakter oluşturma süreci
+- AR deneyimi ve real-time kontroller  
+- Mini oyun mekaniği
+- Sertifika sistemi
 
-## 👨‍💻 Geliştirme Ekibi
+## 🚧 Roadmap & Gelecek Özellikler
 
-- Dünya Kaşifi Proje Ekibi
-  - AR Geliştirme Ekibi
-  - UI/UX Tasarım Ekibi
-  - Eğitici İçerik Geliştirme Ekibi
-  - Test ve Kalite Kontrol Ekibi
+### v2.0 Planları
+- [ ] **ARCore Entegrasyonu:** Profesyonel yüz izleme
+- [ ] **3D Model Desteği:** GLB/GLTF model yükleme
+- [ ] **Multiplayer Modu:** Arkadaşlarla AR deneyimi
+- [ ] **Cloud Storage:** Karakter verilerinin bulut senkronizasyonu
+- [ ] **AI Destekli Özellikler:** Akıllı karakter önerileri
 
-## 📜 Lisans
+### v2.1 Planları  
+- [ ] **Geolocation AR:** Konum tabanlı içerikler
+- [ ] **Social Features:** Sosyal medya paylaşımı
+- [ ] **Advanced Analytics:** Kullanıcı davranış analizi
+- [ ] **Internationalization:** Çoklu dil desteği
 
-Bu proje [MIT lisansı](LICENSE) altında lisanslanmıştır.
+## 🤝 Katkıda Bulunma
 
+### 🔀 Pull Request Süreci
+1. Fork yapın
+2. Feature branch oluşturun (`git checkout -b feature/yeniOzellik`)
+3. Değişiklikleri commit edin (`git commit -am 'Yeni özellik eklendi'`)
+4. Branch'i push edin (`git push origin feature/yeniOzellik`)
+5. Pull Request açın
+
+### 🐞 Bug Report
+Issues sekmesinden bug raporu açabilirsiniz. Lütfen şunları ekleyin:
+- Android versiyonu
+- Cihaz modeli
+- Hata adımları
+- Ekran görüntüsü (varsa)
+
+## 📄 Lisans
+
+Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+## 👨‍💻 Geliştirici
+
+**Burak Duran**
+- GitHub: [@Burakduran1](https://github.com/Burakduran1)
+- Email: [Email buraya eklenecek]
+- LinkedIn: [LinkedIn profili buraya eklenecek]
+
+---
+
+## 📞 İletişim & Destek
+
+Sorularınız için:
+- 🐛 **Bug Reports:** GitHub Issues
+- 💡 **Feature Requests:** GitHub Discussions  
+- 📧 **Email:** [Destek email adresi buraya eklenecek]
+- 📱 **Social Media:** [Social media hesapları buraya eklenecek]
+
+---
+
+*⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!*
+
+**Made with ❤️ for kids who love to explore! 🌍** 

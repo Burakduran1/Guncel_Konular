@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/equipmentTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keşif Ekipmanını Seç"
+            android:textColor="#1B5E20"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/equipmentImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Ekipman Önizleme"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/equipmentTitleTextView"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <TextView
+            android:id="@+id/equipmentNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ekipman Adı"
+            android:textColor="#1B5E20"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/equipmentImageView" />
+
+        <TextView
+            android:id="@+id/equipmentDescriptionTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Ekipman açıklaması burada görünecek."
+            android:textColor="#1B5E20"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/equipmentNameTextView" />
+
+        <TextView
+            android:id="@+id/selectEquipmentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Ekipmanını Seç"
+            android:textColor="#1B5E20"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/equipmentDescriptionTextView" />
+
+        <LinearLayout
+            android:id="@+id/equipmentButtonsLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectEquipmentTextView">
+
+            <ImageButton
+                android:id="@+id/equipment1Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Dürbün"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/equipment2Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Pusula"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/equipment3Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Not Defteri"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/equipment4Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Fotoğraf Makinesi"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView> 

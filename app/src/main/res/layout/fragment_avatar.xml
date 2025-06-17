@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/avatarTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avatarını Oluştur"
+            android:textColor="#1B5E20"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/avatarImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Avatar Önizleme"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/avatarTitleTextView"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <TextView
+            android:id="@+id/hairStyleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Saç Stili"
+            android:textColor="#1B5E20"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/avatarImageView" />
+
+        <LinearLayout
+            android:id="@+id/hairStyleLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hairStyleTextView">
+
+            <ImageButton
+                android:id="@+id/hairStyle1Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Saç Stili 1"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/hairStyle2Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Saç Stili 2"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/hairStyle3Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Saç Stili 3"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/eyeColorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Göz Rengi"
+            android:textColor="#1B5E20"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hairStyleLayout" />
+
+        <LinearLayout
+            android:id="@+id/eyeColorLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eyeColorTextView">
+
+            <ImageButton
+                android:id="@+id/eyeColor1Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Göz Rengi 1"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/eyeColor2Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Göz Rengi 2"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/eyeColor3Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Göz Rengi 3"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/clothesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Kıyafet"
+            android:textColor="#1B5E20"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eyeColorLayout" />
+
+        <LinearLayout
+            android:id="@+id/clothesLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clothesTextView">
+
+            <ImageButton
+                android:id="@+id/clothes1Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Kıyafet 1"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/clothes2Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Kıyafet 2"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/clothes3Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Kıyafet 3"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/accessoryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Aksesuar"
+            android:textColor="#1B5E20"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clothesLayout" />
+
+        <LinearLayout
+            android:id="@+id/accessoryLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accessoryTextView">
+
+            <ImageButton
+                android:id="@+id/accessory1Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Aksesuar 1"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/accessory2Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Aksesuar 2"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/accessory3Button"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="#E8F5E9"
+                android:contentDescription="Aksesuar 3"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView> 
