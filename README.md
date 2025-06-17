@@ -270,23 +270,11 @@ Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için [LICENSE](
 
 **Burak Can Duran**
 - GitHub: [@Burakduran1](https://github.com/Burakduran1)
-- Email: [Email buraya eklenecek]
-- LinkedIn: [LinkedIn profili buraya eklenecek]
+
 
 **Ahmet Çorak**
-- GitHub: [GitHub profili buraya eklenecek]
-- Email: [Email buraya eklenecek]
-- LinkedIn: [LinkedIn profili buraya eklenecek]
+- GitHub: [https://github.com/CorakAhmet]
 
----
-
-## 📞 İletişim & Destek
-
-Sorularınız için:
-- 🐛 **Bug Reports:** GitHub Issues
-- 💡 **Feature Requests:** GitHub Discussions  
-- 📧 **Email:** [Destek email adresi buraya eklenecek]
-- 📱 **Social Media:** [Social media hesapları buraya eklenecek]
 
 ---
 
