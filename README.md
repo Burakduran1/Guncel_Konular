@@ -81,7 +81,7 @@
 
 ### 📥 APK İndirme (Release)
 ```
-🔗 APK Download Link: [Buraya APK linki eklenecek]
+🔗 APK Download Link: https://github.com/Burakduran1/Guncel_Konular/raw/main/apk/app-debug.apk
 ```
 
 ### 👨‍💻 Geliştirici Kurulumu
