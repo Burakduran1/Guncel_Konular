@@ -221,7 +221,7 @@ app/
 
 ### 🎬 Tanıtım Videosu
 ```
-🔗 YouTube Demo Video: [Buraya video linki eklenecek]
+🔗 Demo Video: https://github.com/Burakduran1/Guncel_Konular/raw/main/images/Recording%202025-06-17%20223952.mp4
 ```
 
 ### 📸 Uygulama Ekran Görüntüleri
@@ -266,10 +266,15 @@ Issues sekmesinden bug raporu açabilirsiniz. Lütfen şunları ekleyin:
 
 Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
-## 👨‍💻 Geliştirici
+## 👨‍💻 Geliştiriciler
 
-**Burak Duran**
+**Burak Can Duran**
 - GitHub: [@Burakduran1](https://github.com/Burakduran1)
+- Email: [Email buraya eklenecek]
+- LinkedIn: [LinkedIn profili buraya eklenecek]
+
+**Ahmet Çorak**
+- GitHub: [GitHub profili buraya eklenecek]
 - Email: [Email buraya eklenecek]
 - LinkedIn: [LinkedIn profili buraya eklenecek]
 
