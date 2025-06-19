@@ -221,7 +221,7 @@ app/
 
 ### 🎬 Tanıtım Videosu
 ```
-🔗 Demo Video: https://github.com/Burakduran1/Guncel_Konular/raw/main/images/Recording%202025-06-17%20223952.mp4
+🔗 Demo Video: https://youtu.be/Y6tN5aIDYtU?si=ajO-crc8TsKJMdb0
 ```
 
 ### 📸 Uygulama Ekran Görüntüleri
